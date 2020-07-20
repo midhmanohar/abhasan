@@ -1,0 +1,26 @@
+# Base configs
+baseurl: ""
+image_fulls_loc: "/images/fulls"
+image_thumbs_loc: "/images/thumbs"
+google_analytics: ""
+
+# UI configs
+title: "Abhasan"
+subtitle: ""
+author: "Abhasan Inc"
+header:
+ title: "Abhasan"
+ subtitle: ""
+footer:
+ name: ""
+ bio: ""
+ github: ""
+web_design: ""
+social_urls:
+  facebook: ""
+  twitter: ""
+  instagram: "#"
+  dribbble: "#"
+  behance: "#"
+  linkedin: ""
+  github: ""
