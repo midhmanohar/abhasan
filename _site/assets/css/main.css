@@ -1993,9 +1993,3 @@
 		#footer .copyright a {
 			color: inherit;
 		}
-
-		.bottom { 
-			position:absolute;                  
-			bottom:0;                          
-			left:0;                          
-		}
