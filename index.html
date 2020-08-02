@@ -21,8 +21,8 @@ layout: default
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         <article class="thumb">
-            <a href="assets/images/{{ image.name }}" class="image">
-                <img src="assets/images/{{ image.name }}" alt=""
+            <a href="{{ image.path }}" class="image">
+                <img src="{{ image.path }}" alt=""
                      data-name="{{ image.name }}"/></a>
             <!--<h2></h2>
             <p></p>-->
