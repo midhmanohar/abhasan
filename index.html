@@ -21,8 +21,16 @@ layout: default
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         <article class="thumb">
+<<<<<<< HEAD
             <a href="/abhasan/images/{{ image.name }}" class="image">
                 <img src="/abhasan/images/{{ image.name }}" alt=""
+||||||| merged common ancestors
+            <a href="abhasan/images/{{ image.name }}" class="image">
+                <img src="abhasan/images/{{ image.name }}" alt=""
+=======
+            <a href="{{ site.baseurl }}{{ image.path }}" class="image">
+                <img src="{{ site.baseurl }}{{ image.path }}" alt=""
+>>>>>>> 614cb144008afd0fdbe2ba34888e8697aa3c5ad7
                      data-name="{{ image.name }}"/></a>
             <!--<h2></h2>
             <p></p>-->
