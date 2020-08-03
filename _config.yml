@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "abhasan"
+baseurl: "/abhasan"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: ""
@@ -19,8 +19,8 @@ web_design: ""
 social_urls:
   facebook: ""
   twitter: ""
- instagram: "https://www.instagram.com/iamabhasan"
-  dribbble: "https://dribble.com/dipin_m"
-  behance: "https://www.behance.net/dipinm"
+  instagram: "#"
+  dribbble: "#"
+  behance: "#"
   linkedin: ""
   github: ""
